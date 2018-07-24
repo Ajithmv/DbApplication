@@ -15,7 +15,7 @@ import java.util.List;
 public class ViewList extends AppCompatActivity {
 
     DbHelper Mydb;
-
+ 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
