@@ -19,7 +19,7 @@ public class ViewList extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.viewcontentslayout); 
+        setContentView(R.layout.viewcontentslayout);
 
         ListView listView = (ListView)findViewById(R.id.ListView);
         Mydb = new DbHelper(this);
