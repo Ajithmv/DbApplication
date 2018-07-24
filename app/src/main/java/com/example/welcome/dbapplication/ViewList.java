@@ -15,7 +15,7 @@ import java.util.List;
 public class ViewList extends AppCompatActivity {
 
     DbHelper Mydb;
- 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +26,7 @@ public class ViewList extends AppCompatActivity {
 
         ArrayList<String> thelist = new ArrayList<>();
         Cursor data = Mydb.getListContents();
-
+ 
         if (data.getCount() == 0){
             Toast.makeText(this, "The database was empty", Toast.LENGTH_SHORT).show();
         }else{
