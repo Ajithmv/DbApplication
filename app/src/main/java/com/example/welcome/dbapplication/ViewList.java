@@ -26,7 +26,7 @@ public class ViewList extends AppCompatActivity {
 
         ArrayList<String> thelist = new ArrayList<>();
         Cursor data = Mydb.getListContents();
- 
+
         if (data.getCount() == 0){
             Toast.makeText(this, "The database was empty", Toast.LENGTH_SHORT).show();
         }else{
